@@ -124,10 +124,6 @@ const initBot = () => {
                 }
             }
 
-            if (args[0].toLowerCase() === `88`) {
-                bot.chat(`Heil Hitler. :3`);
-            }
-
             if (args[0].toLowerCase() === `rules`) {
                 bot.chat(`RULES: NO HACKING, NO SWEARING, NO SPAMMING, NO GRIEFING report offenders with !report <player> <reason>`);
             }
